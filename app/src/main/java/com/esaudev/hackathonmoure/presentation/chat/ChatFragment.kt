@@ -1,5 +1,6 @@
 package com.esaudev.hackathonmoure.presentation.chat
 
+import android.content.SharedPreferences
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -18,6 +19,7 @@ import com.esaudev.hackathonmoure.presentation.adapter.VerticalMarginItemDecorat
 import com.esaudev.hackathonmoure.util.Resource
 import com.google.firebase.Timestamp
 import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
 
 @AndroidEntryPoint
 class ChatFragment : Fragment() {
@@ -27,7 +29,7 @@ class ChatFragment : Fragment() {
         get() = _binding!!
 
     private val viewModel: ChatViewModel by viewModels()
-    private val messagesListAdapter: MessagesListAdapter = MessagesListAdapter("1")
+    private lateinit var messagesListAdapter: MessagesListAdapter
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -37,15 +39,15 @@ class ChatFragment : Fragment() {
         _binding = FragmentChatBinding.inflate(inflater, container, false)
 
         // Set Ui components
-        setupListComponent()
+        subscribeViewModel()
         setupMessageListener()
         setupClickListeners()
-        subscribeViewModel()
 
         return binding.root
     }
 
-    private fun setupListComponent() {
+    private fun setupListComponent(senderId: String) {
+        messagesListAdapter = MessagesListAdapter(senderId = senderId)
         with(binding) {
             rvMessagesList.apply {
                 adapter = messagesListAdapter
@@ -74,13 +76,15 @@ class ChatFragment : Fragment() {
         viewModel.sendMessage(
             Message(
                 message = binding.etMessage.text.toString(),
-                senderId = "1",
                 timestamp = Timestamp.now()
             )
         )
     }
 
     private fun subscribeViewModel() {
+        viewModel.senderId.observe(viewLifecycleOwner) { senderId ->
+            setupListComponent(senderId)
+        }
         viewModel.messagesListState.observe(viewLifecycleOwner) { state ->
             when(state) {
                 is Resource.Success -> {

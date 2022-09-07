@@ -9,13 +9,18 @@ import kotlinx.coroutines.flow.flow
 import javax.inject.Inject
 
 class SendMessageUseCase @Inject constructor(
-    private val repository: MessagesRepository
+    private val repository: MessagesRepository,
+    private val getSenderIdUseCase: GetSenderIdUseCase
 ) {
     suspend operator fun invoke(message: Message): Flow<Resource<Unit>> = flow {
 
         emit(Resource.Loading)
 
-        val networkRequest = repository.sendMessage(message)
+        val networkRequest = repository.sendMessage(
+            message.copy(
+                senderId = getSenderIdUseCase()
+            )
+        )
 
         when(networkRequest) {
             is Resource.Success -> emit(Resource.Success(Unit))
