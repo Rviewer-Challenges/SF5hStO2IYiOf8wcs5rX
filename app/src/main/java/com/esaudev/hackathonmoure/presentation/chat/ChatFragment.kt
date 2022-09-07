@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.inputmethod.EditorInfo
 import android.widget.Toast
 import androidx.core.view.isVisible
 import androidx.core.widget.addTextChangedListener
@@ -60,6 +61,13 @@ class ChatFragment : Fragment() {
         with(binding) {
             etMessage.addTextChangedListener {
                 llSendMessage.isVisible = it.toString().isNotEmpty()
+            }
+
+            etMessage.setOnEditorActionListener { textView, actionId, keyEvent ->
+                if (actionId == EditorInfo.IME_ACTION_SEND) {
+                    handleSendMessage()
+                }
+                true
             }
         }
     }
