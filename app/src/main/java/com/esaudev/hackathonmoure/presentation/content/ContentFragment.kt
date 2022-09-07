@@ -1,4 +1,4 @@
-package com.esaudev.hackathonmoure.content
+package com.esaudev.hackathonmoure.presentation.content
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

@@ -7,4 +7,15 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+
+    <color name="light_white">#fffefe</color>
+    <color name="light_bg">#F5F7F1</color>
+
+    <color name="green_message">#52ac82</color>
+
+    <color name="textOnGreen">#F1FFFC</color>
+    <color name="textDate">#DBF0EC</color>
+    <color name="textDateLight">#A3A3A3</color>
+    <color name="textOnLight">#303130</color>
 </resources>

@@ -3,11 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Esau/AndroidStudioProjects/HackathonMoure/app/src/main/res/drawable/ic_news.xml" value="0.244" />
+        <entry key="..\:/Users/Esau/AndroidStudioProjects/HackathonMoure/app/src/main/res/drawable/shape_circle_background.xml" value="0.244" />
+        <entry key="..\:/Users/Esau/AndroidStudioProjects/HackathonMoure/app/src/main/res/drawable/shape_incoming_message.xml" value="0.244" />
+        <entry key="..\:/Users/Esau/AndroidStudioProjects/HackathonMoure/app/src/main/res/drawable/shape_outcoming_message.xml" value="0.244" />
+        <entry key="..\:/Users/Esau/AndroidStudioProjects/HackathonMoure/app/src/main/res/drawable/shape_outgoing_message.xml" value="0.244" />
+        <entry key="..\:/Users/Esau/AndroidStudioProjects/HackathonMoure/app/src/main/res/drawable/shape_shadow.xml" value="0.244" />
         <entry key="..\:/Users/Esau/AndroidStudioProjects/HackathonMoure/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
-        <entry key="..\:/Users/Esau/AndroidStudioProjects/HackathonMoure/app/src/main/res/layout/fragment_chat.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Esau/AndroidStudioProjects/HackathonMoure/app/src/main/res/layout/fragment_chat.xml" value="0.33" />
         <entry key="..\:/Users/Esau/AndroidStudioProjects/HackathonMoure/app/src/main/res/layout/fragment_content.xml" value="0.14722222222222223" />
         <entry key="..\:/Users/Esau/AndroidStudioProjects/HackathonMoure/app/src/main/res/layout/fragment_detail.xml" value="0.358695652173913" />
         <entry key="..\:/Users/Esau/AndroidStudioProjects/HackathonMoure/app/src/main/res/layout/fragment_news.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Esau/AndroidStudioProjects/HackathonMoure/app/src/main/res/layout/item_incoming_message.xml" value="0.5" />
+        <entry key="..\:/Users/Esau/AndroidStudioProjects/HackathonMoure/app/src/main/res/layout/item_outgoing_message.xml" value="1.1" />
+        <entry key="..\:/Users/Esau/AndroidStudioProjects/HackathonMoure/app/src/main/res/layout/item_self_message.xml" value="0.358695652173913" />
         <entry key="..\:/Users/Esau/AndroidStudioProjects/HackathonMoure/app/src/main/res/menu/main_bottom_menu.xml" value="0.365625" />
       </map>
     </option>

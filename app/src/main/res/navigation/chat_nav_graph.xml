@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/chatFragment"
-        android:name="com.esaudev.hackathonmoure.chat.ChatFragment"
+        android:name="com.esaudev.hackathonmoure.presentation.chat.ChatFragment"
         android:label="fragment_chat"
         tools:layout="@layout/fragment_chat" />
 </navigation>

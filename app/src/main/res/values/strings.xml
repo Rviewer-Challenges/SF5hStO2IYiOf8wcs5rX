@@ -5,4 +5,5 @@
     <string name="bottom_menu__news">Noticias</string>
     <string name="bottom_menu__content">Recursos</string>
     <string name="bottom_menu__chat">Chat</string>
+    <string name="chat__empty_messages">Aun no hay mensajes para mostrar \n ¡Inicia una conversacion!</string>
 </resources>

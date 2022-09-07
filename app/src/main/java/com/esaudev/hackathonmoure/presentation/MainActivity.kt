@@ -1,11 +1,14 @@
-package com.esaudev.hackathonmoure
+package com.esaudev.hackathonmoure.presentation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.findNavController
 import androidx.navigation.ui.setupWithNavController
+import com.esaudev.hackathonmoure.R
 import com.esaudev.hackathonmoure.databinding.ActivityMainBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
