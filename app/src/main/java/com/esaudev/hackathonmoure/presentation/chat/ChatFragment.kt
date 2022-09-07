@@ -1,6 +1,5 @@
 package com.esaudev.hackathonmoure.presentation.chat
 
-import android.content.SharedPreferences
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -13,14 +12,12 @@ import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.viewModels
 import com.esaudev.hackathonmoure.databinding.FragmentChatBinding
 import com.esaudev.hackathonmoure.domain.extension.dpToPx
-import com.esaudev.hackathonmoure.domain.extension.hideKeyboard
 import com.esaudev.hackathonmoure.domain.model.Message
 import com.esaudev.hackathonmoure.presentation.adapter.MessagesListAdapter
 import com.esaudev.hackathonmoure.presentation.adapter.VerticalMarginItemDecoration
 import com.esaudev.hackathonmoure.util.Resource
 import com.google.firebase.Timestamp
 import dagger.hilt.android.AndroidEntryPoint
-import javax.inject.Inject
 
 @AndroidEntryPoint
 class ChatFragment : Fragment() {

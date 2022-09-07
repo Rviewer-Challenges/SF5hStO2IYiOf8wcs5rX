@@ -8,9 +8,15 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
+    <color name="blue">#4144c8</color>
+    <color name="grey">#f2f2f2</color>
+    <color name="white_on_blue">#f3faff</color>
 
     <color name="light_white">#fffefe</color>
     <color name="light_bg">#F5F7F1</color>
+
+    <color name="yellow">#f8e140</color>
+    <color name="red">#dd2e44</color>
 
     <color name="green_message">#52ac82</color>
 

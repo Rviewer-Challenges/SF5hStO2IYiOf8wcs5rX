@@ -7,4 +7,6 @@
     <string name="bottom_menu__chat">Chat</string>
     <string name="chat__empty_messages">Aun no hay mensajes para mostrar \n ¡Inicia una conversacion!</string>
     <string name="chat__message_hint">Escribe un mensaje</string>
+    <string name="content__header">Temas de estudio</string>
+    <string name="content__desc">Repasa a tu ritmo los temas que necesites, no olvides preguntar cualquier duda en el chat de la comunidad.</string>
 </resources>

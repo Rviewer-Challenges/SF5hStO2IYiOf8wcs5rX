@@ -7,9 +7,9 @@
 
     <fragment
         android:id="@+id/contentFragment"
-        android:name="com.esaudev.hackathonmoure.presentation.content.ContentFragment"
+        android:name="com.esaudev.hackathonmoure.presentation.content.ContentListFragment"
         android:label="fragment_content"
-        tools:layout="@layout/fragment_content" >
+        tools:layout="@layout/fragment_content_list" >
         <action
             android:id="@+id/action_contentFragment_to_detailFragment"
             app:destination="@id/detailFragment" />
