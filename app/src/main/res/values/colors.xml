@@ -19,6 +19,7 @@
     <color name="red">#dd2e44</color>
 
     <color name="green_message">#52ac82</color>
+    <color name="green_dark">#3A8E67</color>
 
     <color name="textOnGreen">#F1FFFC</color>
     <color name="textDate">#DBF0EC</color>
