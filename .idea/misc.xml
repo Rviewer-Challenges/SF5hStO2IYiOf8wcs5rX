@@ -18,8 +18,11 @@
         <entry key="..\:/Users/Esau/AndroidStudioProjects/HackathonMoure/app/src/main/res/layout/fragment_content_list.xml" value="0.33" />
         <entry key="..\:/Users/Esau/AndroidStudioProjects/HackathonMoure/app/src/main/res/layout/fragment_detail.xml" value="0.358695652173913" />
         <entry key="..\:/Users/Esau/AndroidStudioProjects/HackathonMoure/app/src/main/res/layout/fragment_news.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Esau/AndroidStudioProjects/HackathonMoure/app/src/main/res/layout/fragment_on_boarding.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Esau/AndroidStudioProjects/HackathonMoure/app/src/main/res/layout/fragment_on_boarding_page.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Esau/AndroidStudioProjects/HackathonMoure/app/src/main/res/layout/item_content.xml" value="0.365625" />
         <entry key="..\:/Users/Esau/AndroidStudioProjects/HackathonMoure/app/src/main/res/layout/item_incoming_message.xml" value="0.5" />
+        <entry key="..\:/Users/Esau/AndroidStudioProjects/HackathonMoure/app/src/main/res/layout/item_outgoing_media.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Esau/AndroidStudioProjects/HackathonMoure/app/src/main/res/layout/item_outgoing_message.xml" value="1.1" />
         <entry key="..\:/Users/Esau/AndroidStudioProjects/HackathonMoure/app/src/main/res/layout/item_self_message.xml" value="0.358695652173913" />
         <entry key="..\:/Users/Esau/AndroidStudioProjects/HackathonMoure/app/src/main/res/menu/main_bottom_menu.xml" value="0.365625" />

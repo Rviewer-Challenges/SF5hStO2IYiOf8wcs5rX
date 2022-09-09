@@ -3,9 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_nav_graph"
-    app:startDestination="@id/newsGraph">
+    app:startDestination="@id/onBoardingFragment">
 
-    <include app:graph="@navigation/news_nav_graph" />
-    <include app:graph="@navigation/content_nav_graph" />
-    <include app:graph="@navigation/chat_nav_graph" />
+    <fragment
+        android:id="@+id/onBoardingFragment"
+        android:name="com.esaudev.hackathonmoure.presentation.onboarding.OnBoardingFragment"
+        android:label="fragment_on_boarding"
+        tools:layout="@layout/fragment_on_boarding" >
+
+        <action
+            android:id="@+id/action_onBoardingFragment_to_bottomMainNav"
+            app:destination="@id/bottom_nav_main_nav_graph"
+            app:popUpTo="@id/onBoardingFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+    <include
+        app:graph="@navigation/bottom_nav_main_nav_graph"
+        />
 </navigation>
