@@ -28,6 +28,7 @@
             android:paddingEnd="10dp"
             android:paddingBottom="10dp"
             tools:text="Hi"
+            android:autoLink="web"
             android:textColor="@color/textOnLight"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
