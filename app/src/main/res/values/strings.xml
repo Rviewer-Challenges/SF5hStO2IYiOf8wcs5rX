@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">HackathonMoure</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bottom_menu__news">Noticias</string>
+    <string name="bottom_menu__content">Recursos</string>
+    <string name="bottom_menu__chat">Chat</string>
+    <string name="chat__empty_messages">Aun no hay mensajes para mostrar \n ¡Inicia una conversacion!</string>
+    <string name="chat__message_hint">Escribe un mensaje</string>
+    <string name="content__header">Temas de estudio</string>
+    <string name="content__desc">Repasa a tu ritmo los temas que necesites, no olvides preguntar cualquier duda en el chat de la comunidad.</string>
+    <string name="on_boarding__first_title">Noticias</string>
+    <string name="on_boarding__first_subtitle">Enterate de todo lo nuevo relacionado con el desarrollo android.</string>
+    <string name="on_boarding__second_title">Enciclopedia de bolsillo.</string>
+    <string name="on_boarding__second_subtitle">Encuentra distintos temas de estudio, pasando por niveles basicos, intermedios y avanzados.</string>
+    <string name="on_boarding__third_title">No te qudes con la duda</string>
+    <string name="on_boarding__third_subtitle">Pregunta cualquier duda que tengas en el chat de la comunidad</string>
+    <string name="on_boarding__continue_button">Continuar</string>
+</resources>

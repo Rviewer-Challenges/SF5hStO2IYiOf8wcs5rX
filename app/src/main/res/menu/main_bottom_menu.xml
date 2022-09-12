@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/newsGraph"
+        android:title="@string/bottom_menu__news"
+        android:icon="@drawable/ic_news"/>
+
+    <item
+        android:id="@+id/contentGraph"
+        android:title="@string/bottom_menu__content"
+        android:icon="@drawable/ic_android"/>
+
+    <item
+        android:id="@+id/chatGraph"
+        android:title="@string/bottom_menu__chat"
+        android:icon="@drawable/ic_chat"/>
+</menu>
